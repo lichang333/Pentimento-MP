@@ -4,6 +4,6 @@
       <text class="h1" style="font-size: 35px;">Pentimento</text>
         <text></text>
 
-        <button class="primary btn animation-reverse">View Artwork</button>
+        <button bindtap="goToArtsPage"  class="primary btn">View Artwork</button>
     </view>
 </view>
