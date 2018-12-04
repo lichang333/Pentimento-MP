@@ -2,6 +2,16 @@
 //获取应用实例
 const app = getApp()
 
+// const pageColorMap = {
+//   'index_page': '#637380',
+//   'paintings': '#F0F0F0',
+//   'overcast': '#c6ced2',
+//   'lightrain': '#bdd5e1',
+//   'heavyrain': '#c5ccd0',
+//   'snow': '#aae1fc'
+// }
+
+
 Page({
   data: {
 

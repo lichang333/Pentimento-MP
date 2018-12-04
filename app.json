@@ -2,11 +2,12 @@
   "pages":[
     "pages/index/index",
     "pages/arts/arts",
+    "pages/paintings/paintings",
     "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#647480",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
   }
