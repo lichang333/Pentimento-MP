@@ -1,8 +1,9 @@
 <!--index.wxml-->
 <view class="banner" style = "background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 60%), url('http://pentimento-mp.ellerystars.xyz/img/banner.jpg');">
     <view class="banner-content" >
-      <text class="h1">Pentimento</text>
+      <text class="h1" style="font-size: 35px;">Pentimento</text>
         <text></text>
-        <button bindtap="goToArtsPage" class="button">View Artwork</button>
+
+        <button bindtap="goToArtsPage" class="primary btn">View Artwork</button>
     </view>
 </view>

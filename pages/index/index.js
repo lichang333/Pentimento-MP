@@ -49,7 +49,7 @@ Page({
     })
   },
   goToArtsPage: function () {
-    wx.relaunch({
+    wx.redirectTo({
       url: '/pages/arts/arts'
     })
   }
