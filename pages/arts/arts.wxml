@@ -1,2 +1,8 @@
-<!--pages/arts/arts.wxml-->
-<text>pages/arts/arts.wxml</text>
+<view class="body">
+  <block wx:for='{{ workspaces }}'>
+    <!-- <view class="flex-item"> -->
+      <view bindtap="showWorkspace" data-id='{{item.id}}'class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('http://pentimento-mp.ellerystars.xyz/img/banner.jpg');">
+      </view>
+    <!-- </view> -->
+  </block>
+</view>
