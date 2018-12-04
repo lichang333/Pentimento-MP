@@ -8,6 +8,16 @@
   align-items: center;
 }
 
+.animation-reverse {
+  animation-direction: reverse;
+}
+
+[class*=animation-] {
+  animation-duration: .5s;
+  animation-timing-funciton: ease-out;
+  animation-fill-mode: both;
+}
+
 .userinfo-avatar {
   width: 128rpx;
   height: 128rpx;
