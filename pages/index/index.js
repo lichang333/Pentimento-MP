@@ -4,10 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
-    userInfo: {},
-    hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+
   },
   //事件处理函数
   bindViewTap: function() {
@@ -49,6 +46,11 @@ Page({
     this.setData({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
+    })
+  },
+  goToArtsPage: function () {
+    wx.relaunch({
+      url: '/pages/arts/arts'
     })
   }
 })
