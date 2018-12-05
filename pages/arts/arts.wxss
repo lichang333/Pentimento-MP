@@ -1,3 +1,4 @@
+/* pages/workspaces/workspaces.wxss */
 h1 {
   text-align: center;
   font-size: 80rpx;
@@ -8,7 +9,20 @@ h1 {
   background-color: #505050;
 }
 
-
+.card {
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 600rpx;
+  height: 500rpx;
+  border-radius: 3px;
+}
 .card-user {
   position: absolute;
   right: 10px;
@@ -16,7 +30,13 @@ h1 {
   width: 40px;
   border-radius: 50%;
 }
-
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
 .card-description {
   position: absolute;
   bottom: 10px;
@@ -121,32 +141,6 @@ h1 {
   color: white;
   opacity: 0.7;
   z-index: 99;
-  }
-
-page {
-  background-color: #fcfcfc;
 }
 
-.card-category {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  font-size: 15px;
-  text-transform: uppercase;  
-}
 
-.card {
-  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
-  background-size: cover !important;
-  background-position: center;
-  color: white;
-  position: relative;
-  display: flex;
-  justify-content: space-around;
-  margin: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  width: 600rpx;
-  height: 500rpx;
-  border-radius: 3px;
-  margin-bottom: 200rpx;
-}
