@@ -12,13 +12,13 @@ Page({
 
     //Request API to get workspace
     wx.request({
-      url: "https://workspace-api333.herokuapp.com/api/v1/workspaces",
+      url: "http://pentimento-mp.ellerystars.xyz/api/mock_paintings.json",
       method: 'GET',
       success(res) {
-        const workspaces = res.data;
-        console.log(3242342, workspaces);
+        const artworks = res.data;
+        console.log(3242342, artworks);
         page.setData({
-          workspaces: workspaces
+          artworks
         });
 
         wx.hideToast();
@@ -58,12 +58,7 @@ Page({
     const workspaceId = e.currentTarget.dataset.id;
 
     wx.navigateTo({
-      url: `/pages/space/space?id=${workspaceId}`,
+      url: `/pages/art_details/art_details?id=${workspaceId}`,
     });
-  },
-  goToHomePage: function () {
-    wx.navigateTo({
-      url: '/pages/index/index'
-    })
   }
 })
