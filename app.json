@@ -2,7 +2,7 @@
   "pages":[
     "pages/index/index",
     "pages/arts/arts",
-    "pages/paintings/paintings",
+    "pages/art_details/art_details",
     "pages/logs/logs"
   ],
   "window":{

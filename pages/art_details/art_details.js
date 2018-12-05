@@ -1,4 +1,4 @@
-// pages/paintings/paintings.js
+// pages/art_details/art_details.js
 Page({
 
   /**
